@@ -24,11 +24,21 @@ async function coletarRespostas() {
     
 
 
-console.log (`\nOs dados informados são:
+console.log (`\nOs dados informados são:       
     Nome: ${nome}
     Idade: ${idade}
     Cidade do Usuário: ${cidadeUsuario}
-`)
+`)                                         
+// \n indica quebra de linha(pula uma linha), 
+// daria apenas colocar Os dados informados são na linha de baixo por estar
+//  com `ele já deixa o texto do jeito que adicionar. igual fiz abaixo...
+/*
+console.log (`
+Os dados informados são:       
+    Nome: ${nome}
+    Idade: ${idade}
+    Cidade do Usuário: ${cidadeUsuario}
+    `)*/
 
 console.log (`Olá, ${nome}!  Você tem ${idade} anos e mora em ${cidadeUsuario}.`);
 
