@@ -30,6 +30,8 @@ console.log (`\nOs dados informados são:
     Cidade do Usuário: ${cidadeUsuario}
 `)
 
+console.log (`Olá, ${nome}!  Você tem ${idade} anos e mora em ${cidadeUsuario}.`);
+
 r1.close();
 
 }
